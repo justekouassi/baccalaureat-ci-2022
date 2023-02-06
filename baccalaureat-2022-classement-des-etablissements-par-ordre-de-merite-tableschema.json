@@ -1,0 +1,59 @@
+{
+  "fields": [
+    {
+      "name": "RANG",
+      "title": "RANG",
+      "type": "integer"
+    },
+    {
+      "name": "CODE_ETABL_",
+      "title": "CODE ETABL.",
+      "type": "string"
+    },
+    {
+      "name": "ETABLISSEMENT",
+      "title": "ETABLISSEMENT",
+      "type": "string"
+    },
+    {
+      "name": "TYPE_ETABL_",
+      "title": "TYPE ETABL.",
+      "type": "string"
+    },
+    {
+      "name": "CODE_DREN",
+      "title": "CODE DREN",
+      "type": "integer"
+    },
+    {
+      "name": "LIB__DREN",
+      "title": "LIB. DREN",
+      "type": "string"
+    },
+    {
+      "name": "INSCRITS",
+      "title": "INSCRITS",
+      "type": "integer"
+    },
+    {
+      "name": "PRESENTS",
+      "title": "PRESENTS",
+      "type": "integer"
+    },
+    {
+      "name": "ADMIS",
+      "title": "ADMIS",
+      "type": "integer"
+    },
+    {
+      "name": "%TAUX_2022",
+      "title": "TAUX DE REUSSITE 2022 (%)",
+      "type": "number"
+    },
+    {
+      "name": "%TAUX_2021",
+      "title": "TAUX DE REUSSITE 2021 (%)",
+      "type": "number"
+    }
+  ]
+}

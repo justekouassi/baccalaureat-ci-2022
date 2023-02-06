@@ -1,0 +1,177 @@
+{
+  "type": "object",
+  "properties": {
+    "RANG": {
+      "x-originalName": "RANG",
+      "type": "integer",
+      "x-cardinality": 2076,
+      "description": ""
+    },
+    "CODE_ETABL_": {
+      "x-originalName": "CODE ETABL.",
+      "type": "string",
+      "x-capabilities": {
+        "textAgg": false
+      },
+      "x-cardinality": 2076,
+      "description": ""
+    },
+    "ETABLISSEMENT": {
+      "x-originalName": "ETABLISSEMENT",
+      "type": "string",
+      "x-capabilities": {
+        "textAgg": false
+      },
+      "x-cardinality": 2068,
+      "description": ""
+    },
+    "TYPE_ETABL_": {
+      "x-originalName": "TYPE ETABL.",
+      "type": "string",
+      "x-capabilities": {
+        "textAgg": false
+      },
+      "x-cardinality": 4,
+      "description": "",
+      "examples": [
+        "PRIVE",
+        "PUBLIC",
+        "CS",
+        "CL-DREN"
+      ]
+    },
+    "CODE_DREN": {
+      "x-originalName": "CODE DREN",
+      "type": "integer",
+      "x-cardinality": 41,
+      "description": "",
+      "examples": [
+        40,
+        41,
+        12,
+        31,
+        15,
+        20,
+        26,
+        23,
+        16,
+        19,
+        43,
+        49,
+        13,
+        17,
+        33,
+        11,
+        32,
+        34,
+        14,
+        51,
+        53,
+        50,
+        22,
+        42,
+        21,
+        45,
+        28,
+        25,
+        52,
+        46,
+        27,
+        48,
+        54,
+        47,
+        55,
+        29,
+        18,
+        30,
+        24,
+        35,
+        56
+      ]
+    },
+    "LIB__DREN": {
+      "x-originalName": "LIB. DREN",
+      "type": "string",
+      "x-capabilities": {
+        "textAgg": false
+      },
+      "x-cardinality": 41,
+      "description": "",
+      "examples": [
+        "ABIDJAN 3",
+        "ABIDJAN 4",
+        "ABIDJAN 1",
+        "ABIDJAN 2",
+        "DALOA",
+        "YAMOUSSOUKRO",
+        "GAGNOA",
+        "DIVO",
+        "KORHOGO",
+        "BOUAKE 2",
+        "SAN-PEDRO",
+        "SOUBRE",
+        "BONDOUKOU",
+        "MAN",
+        "DABOU",
+        "ABENGOUROU",
+        "ADZOPE",
+        "BOUAFLE",
+        "BOUAKE 1",
+        "DUEKOUE",
+        "GRAND BASSAM",
+        "BONGOUANOU",
+        "AGBOVILLE",
+        "TIASSALE",
+        "ABOISSO",
+        "DAOUKRO",
+        "GUIGLO",
+        "ISSIA",
+        "KATIOLA",
+        "SINFRA",
+        "BOUNDIALI",
+        "FERKESSEDOUGOU",
+        "MANKONO",
+        "DANANE",
+        "SASSANDRA",
+        "SEGUELA",
+        "DIMBOKRO",
+        "ODIENNE",
+        "BOUNA",
+        "TOUBA",
+        "MINIGNAN"
+      ]
+    },
+    "INSCRITS": {
+      "x-originalName": "INSCRITS",
+      "type": "integer",
+      "x-cardinality": 504,
+      "description": ""
+    },
+    "PRESENTS": {
+      "x-originalName": "PRESENTS",
+      "type": "integer",
+      "x-cardinality": 489,
+      "description": ""
+    },
+    "ADMIS": {
+      "x-originalName": "ADMIS",
+      "type": "integer",
+      "x-cardinality": 235,
+      "description": ""
+    },
+    "%TAUX_2022": {
+      "x-originalName": "%TAUX 2022",
+      "type": "number",
+      "x-cardinality": 1249,
+      "description": "",
+      "title": "TAUX DE REUSSITE 2022 (%)"
+    },
+    "%TAUX_2021": {
+      "x-originalName": "%TAUX 2021",
+      "type": "number",
+      "x-cardinality": 1111,
+      "description": "",
+      "title": "TAUX DE REUSSITE 2021 (%)"
+    }
+  }
+}
